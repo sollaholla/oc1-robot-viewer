@@ -1,4 +1,4 @@
-OC-1 office delivery robot, rev C: 3D viewer
+OC-1 office delivery robot, rev D: 3D viewer
 Credits and third-party licenses
 
 This viewer shows a proposed design by Robocor. The robot model is our own CAD,

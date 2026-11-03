@@ -118,11 +118,11 @@ body.dark .chip { color: var(--accent-2); }
 </style>
 </head>
 <body>
-<div id="wip" role="alert"><span><b>Rev F, look approved 2 Nov (concept c1r3).</b> Work in progress: structural stiffening, outrigger skid and lights-out electrical changes are being integrated.</span><span>Snapshot 2026-11-02 22:25 (c1r3 CAD of 2026-11-02 17:28). Projected old-way total $1,871.48 (estimate).</span><a href="https://sollaholla.github.io/oc1-robot-viewer/" target="_blank" rel="noopener">Rev D</a><a href="https://sollaholla.github.io/oc1-robot-viewer/revE/" target="_blank" rel="noopener">Rev E</a></div>
+<div id="wip" role="alert"><span><b>Rev F, staged build of the approved c1r3 look.</b> Base turned 3 Nov: drive wheels in front, caster at the back, skid legs front and rear. Screws drawn for the main joints (Screws button). 26 of the main cable runs routed and drawn (15.25 m, Cables button), 26 of them inside their bend radius and clearance rules; 6 small circuits not drawn yet.</span><span>Snapshot 2026-11-03 17:45 (c1r3 CAD of 2026-11-03 17:37). Projected old-way total $1,949.93 (estimate).</span><a href="https://sollaholla.github.io/oc1-robot-viewer/" target="_blank" rel="noopener">Rev D</a><a href="https://sollaholla.github.io/oc1-robot-viewer/revE/" target="_blank" rel="noopener">Rev E</a></div>
 <div id="app">
   <header>
     <div class="mark">R</div>
-    <div class="ttl"><b>OC-1 office delivery robot, rev F concept c1r3 (work in progress)</b><span id="sub">RC-OC1 · concept c1r3 · snapshot 2026-11-02 22:25 · loading</span></div>
+    <div class="ttl"><b>OC-1 office delivery robot, rev F concept c1r3 (work in progress)</b><span id="sub">RC-OC1 · concept c1r3 · snapshot 2026-11-03 17:45 · loading</span></div>
     <div class="grow"></div>
     <span class="badge" id="backend">starting</span>
     <button id="partsBtn" class="on">Parts</button>
@@ -147,12 +147,14 @@ body.dark .chip { color: var(--accent-2); }
       <span class="sep"></span>
       <label>Shell <span class="seg" id="shell"><button data-v="solid" class="on">Solid</button><button data-v="ghost">Ghost</button><button data-v="hidden">Off</button></span></label>
       <button class="tog" id="door">Open drawers</button>
+      <button class="tog on" id="wires" title="Show or hide the cables">Cables</button>
+      <button class="tog" id="screws" title="Screws, nuts and washers solid, everything else see-through">Screws</button>
       <button class="tog" id="xray">X-ray</button>
       <button class="tog" id="lights" title="Dark room around the robot (nothing on c1r3 lights up)">Dark room</button>
     </div>
   </main>
 </div>
-<script src="model.js?v=730bf71c9f"></script>
-<script src="main.js?v=d59cc4defc"></script>
+<script src="model.js?v=a96cc703b8"></script>
+<script src="main.js?v=713857c686"></script>
 </body>
 </html>
